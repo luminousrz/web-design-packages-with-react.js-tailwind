@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+
+body{
+  font-family: "Sniglet", sans-serif;
+  background-color: #ffc29718;
+  overflow-x: hidden;
+}
+
+nav{
+  z-index: 10001 !important;
+}
+
+.gradient{
+background: linear-gradient(6deg, rgba(39,78,0,0.5382528011204482) 0%, rgba(128,255,0,0.24413515406162467) 45%, rgba(213,255,170,0.26094187675070024) 100%);
+}
+.bannerBtn{
+  @apply bg-green rounded-2xl px-6 py-3 text-white transition-all duration-200 hover:bg-[#669e6d] hover:text-black;
+}
